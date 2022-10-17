@@ -118,7 +118,7 @@ function calcOrderTotal() {
     var shippingSubtotal = $("#shipping-subtotal").val() || 0;
     var underTotal = $("#under-box").val() || 0;
         
-    var orderTotal = parseInt(CleanNumber(productSubtotal)) + parseInt(CleanNumber(shippingSubtotal));    
+    var orderTotal = parseInt(CleanNumber(productSubtotal));    
         
     $("#order-total").val(CommaFormatted(orderTotal));
     
