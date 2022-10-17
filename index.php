@@ -181,5 +181,20 @@
         </div>
     </div>
    
+<?php
+
+require_once("wefact_api.php");
+
+$api = new WeFactAPI();
+
+$parameters = [
+    "group" => "1",
+];
+
+$response = $api->sendRequest('debtor', 'list', $parameters);
+
+print_r_pre($response);
+?>
+
 </body>
 </html>
