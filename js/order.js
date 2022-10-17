@@ -108,7 +108,7 @@ function calcOrderTotal() {
     var productSubtotal = $("#product-subtotal").val() || 0;
     var underTotal = $("#under-box").val() || 0;
         
-    var orderTotal = parseInt(CleanNumber(productSubtotal));    
+    var orderTotal = parseInt(CleanNumber(prodSubtotal));    
         
     $("#order-total").val(CommaFormatted(orderTotal));
     
