@@ -153,7 +153,7 @@
     	 </tr>
     	 
     	 <tr>
-    	     <td id="total-pallets"><input id="total-pallets-input" value="0" type="text" disabled="disabled"></input></td>
+    	     <td id="total-pallets"><input id="total-pallets-input" value="0" type="text"></input></td>
     	     <td>X</td>
     	     <td id="shipping-rate">10.00</td>
     	     <td>=</td>
