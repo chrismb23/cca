@@ -134,12 +134,7 @@
                     Product SUBTOTAL: <input type="text" class="total-box" value="€0" id="product-subtotal" disabled="disabled"></input>
                 </td>
             </tr>
-            
-             <tr>
-                <td colspan="6" style="text-align: right;">
-                    Product SUBTOTAL1: <input type="text" class="total-box" value="€0" id="product-subtotal1" disabled="disabled"></input>
-                </td>
-            </tr>
+           
     	</table>
     	
 	<table id="shipping-table">
