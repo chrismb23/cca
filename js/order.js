@@ -201,7 +201,6 @@ $(function() {
         
         // Calcuate the overal totals
         calcProdSubTotal();
-        calcTotalPallets();
         calcOrderTotal();
     
     });
