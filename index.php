@@ -137,25 +137,7 @@
            
     	</table>
     	
-	<table id="shipping-table">
-    	
-    	 <tr>
-    	     <th>Total Qty.</th>
-    	     <th>X</th>
-    	     <th>Shipping Rate</th>
-    	     <th>=</th>
-    	     <th style="text-align: right;">Shipping Total</th>
-    	 </tr>
-    	 
-    	 <tr>
-    	     <td id="total-pallets"><input id="total-pallets-input" value="0" type="text"></input></td>
-    	     <td>X</td>
-    	     <td id="shipping-rate">10.00</td>
-    	     <td>=</td>
-    	     <td style="text-align: right;"><input type="text" class="total-box" value="$0" id="shipping-subtotal" disabled="disabled"></input></td>
-    	 </tr>
-    	
-    	</table>
+	
     	
     	<div class="clear"></div>
     	
