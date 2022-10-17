@@ -100,15 +100,6 @@ function calcProdSubTotal() {
     $("#product-subtotal").val(CommaFormatted(prodSubTotal));
 }
 
-function calcShippingTotal() {
-
-    var totalPallets = $("#total-pallets-input").val() || 0;
-    var shippingRate = $("#shipping-rate").text() || 0;
-    var shippingTotal = totalPallets * shippingRate;
-    
-    $("#shipping-subtotal").val(CommaFormatted(shippingTotal));
-
-}
 
 function calcOrderTotal() {
 
@@ -212,7 +203,6 @@ $(function() {
         // Calcuate the overal totals
         calcProdSubTotal();
         calcTotalPallets();
-        calcShippingTotal();
         calcOrderTotal();
     
     });
