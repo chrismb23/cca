@@ -88,7 +88,6 @@ function calcTotalPallets() {
 function calcProdSubTotal() {
     
     var prodSubTotal = 0;
-    var prodSubTotal1 = 0;
 
     $(".row-total-input").each(function() {
     
@@ -99,19 +98,6 @@ function calcProdSubTotal() {
     });
         
     $("#product-subtotal").val(CommaFormatted(prodSubTotal));
-
-    $(".row-total-input-1").each(function() {
-    
-        var valString = $(this).val() || 0;
-        
-        prodSubTotal1 += parseInt(valString);
-                    
-    });
-        
-    $("#product-subtotal").val(CommaFormatted(prodSubTotal));
-    $("#product-subtotal-1").val(CommaFormatted(prodSubTotal1));
-
-
 }
 
 function calcShippingTotal() {
