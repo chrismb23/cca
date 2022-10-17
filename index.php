@@ -77,7 +77,7 @@
                 <td class="times">X</td>
                 <td class="price-per-pallet">€<span>300</span></td>
                 <td class="equals">=</td>
-                <td class="row-total"><input type="text" class="row-total-input-1" id="turface-quick-dry-row-total" disabled="disabled"></input></td>
+                <td class="row-total"><input type="text" class="row-total-input" id="turface-quick-dry-row-total" disabled="disabled"></input></td>
             </tr>
             <tr class="even">
                 <td class="product-title">Turface&reg; Mound Clay Red - <em>Virgin Red Clay</em></td>
@@ -85,7 +85,7 @@
                 <td class="times">X</td>
                 <td class="price-per-pallet">€<span>410</span></td>
                 <td class="equals">=</td>
-                <td class="row-total"><input type="text" class="row-total-input-1" id="turface-mound-clay-red-row-total" disabled="disabled"></input></td>
+                <td class="row-total"><input type="text" class="row-total-input" id="turface-mound-clay-red-row-total" disabled="disabled"></input></td>
             </tr>
             <tr class="odd">
                 <td class="product-title">Diamond Pro&reg; Red Infield Conditioner - <em>Vitrified Clay Top Dressing</em></td>
@@ -93,7 +93,7 @@
                 <td class="times">X</td>
                 <td class="price-per-pallet">€<span>365</span></td>
                 <td class="equals">=</td>
-                <td class="row-total"><input type="text" class="row-total-input-1" id="diamond-pro-red-row-total" disabled="disabled"></input></td>
+                <td class="row-total"><input type="text" class="row-total-input" id="diamond-pro-red-row-total" disabled="disabled"></input></td>
             </tr>
             <tr class="even">
                 <td class="product-title">Diamond Pro&reg; Drying Agent - <em>Calcined Clay Moisture Absorbent</em></td>
@@ -101,7 +101,7 @@
                 <td class="times">X</td>
                 <td class="price-per-pallet">€<span>340</span></td>
                 <td class="equals">=</td>
-                <td class="row-total"><input type="text" class="row-total-input-1" id="diamond-pro-drying-agent-row-total" disabled="disabled"></input></td>
+                <td class="row-total"><input type="text" class="row-total-input" id="diamond-pro-drying-agent-row-total" disabled="disabled"></input></td>
             </tr>
             
             <tr>
